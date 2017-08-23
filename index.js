@@ -12,8 +12,9 @@ module.exports = async (host, ports, { concurrency = 1 } = {}) => {
         const socket = await connectPort({ host, port })
         socket.destroy()
         return true
-      } catch (err) {}
-      return false
+      } catch (err) {
+        return false
+      }
     },
     { concurrency },
   )

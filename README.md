@@ -13,5 +13,13 @@ npm install scan-ports --save
 <!-- eslint-disable strict -->
 
 ```js
-const scanports = require('scan-ports')
+const scanPorts = require('scan-ports')
+
+scanPorts('npmjs.com', [80, 8000])
+/*
+{
+  80: true,
+  8000: false,
+}
+*/
 ```
