@@ -1,0 +1,30 @@
+{
+  "name": "scan-ports",
+  "version": "0.0.0",
+  "description": "Scan ports.",
+  "scripts": {
+    "lint": "eslint --ext js,md .",
+    "test": "ava",
+    "posttest": "npm run lint"
+  },
+  "dependencies": {
+    "connect-port": "^0.0.1",
+    "lodash": "^4.17.4",
+    "p-map": "^1.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "eslint": "^4.5.0",
+    "eslint-config-concise": "^0.11.0",
+    "eslint-config-concise-ava": "^0.11.0"
+  },
+  "repository": "ratson/scan-ports",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "*.md",
+    "index.js"
+  ]
+}
