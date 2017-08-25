@@ -26,5 +26,14 @@
   "files": [
     "*.md",
     "index.js"
+  ],
+  "keywords": [
+    "scan",
+    "ports",
+    "connect",
+    "listen",
+    "port",
+    "tcp",
+    "open"
   ]
 }
